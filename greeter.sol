@@ -9,7 +9,7 @@ contract Greeter is Owned{
   string[] public greetings;
 
   function Greeter() {
-    no_of_greetings = 0;
+    no_of_greetings = 1;
     greeting = "Hello World!";
     greetings.push(greeting);
   }
@@ -27,4 +27,4 @@ contract Greeter is Owned{
     greeting = _newGreeting;
     greetings.push(greeting);
   }
-}
+} 
