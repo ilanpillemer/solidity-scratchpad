@@ -1,6 +1,6 @@
 pragma solidity ^0.4.0;
 contract Owned {
-     address public owner;
+  address public owner;
 
     modifier only_owner() {
         if (msg.sender == owner) {
